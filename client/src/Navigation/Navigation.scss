@@ -1,0 +1,58 @@
+.navigation {
+
+    background-color: #6AE;
+    min-width: 200px;
+    padding: 1px 0px;
+    border-radius: 0px 20px 20px 0px;
+    align-self: stretch;
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        margin: 5px;
+        a, p {
+            display: inline-block;
+            font-size: 16px;
+            text-decoration: none;
+            color: #000;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #6AE;
+            border-radius: 25px;
+        }
+        a:hover {
+            background-color: #7BF;
+        }
+        a:active {
+            background-color: #8CF;
+        }
+        ul li {
+            margin-right: 0px;
+            margin-left: 30px;
+            a {
+                display: block;
+                font-size: 14px;
+            }
+        }
+    }
+
+    button {
+        display: inline-block;
+        font-size: 10px;
+        margin: 0;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        background: none;
+        vertical-align: center;
+        margin: 5px 0px;
+    }
+    button:hover {
+        background-color: #7BF;
+    }
+
+}

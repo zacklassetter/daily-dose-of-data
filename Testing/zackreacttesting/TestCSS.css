@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+nav {
+    background-color: #273BE2;
+    border-bottom: 2px solid Black;
+    width: 100%;
+    height: 60px;
+}
+
+    nav ul {
+        list-style-type: none;
+    }
+
+        nav ul li {
+            float: left;
+            position: relative;
+        }
+
+            nav ul li a {
+                color: White;
+                font-size: 24px;
+                line-height: 60px;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 16px;
+                border: 1px solid Black;
+            }
+
+            nav ul li ul {
+                display: none;
+                position: absolute;
+                background-color: #273BE2;
+                width: 100%;
+                border-bottom: 1px solid Black;
+            }
+
+            nav ul li:hover ul {
+                display: block;
+            }
+
+            nav ul li ul li {
+                padding: 10px 20px;
+                border: 1px solid Black;
+                border-bottom: none;
+                color: White;
+                float: none;
+            }
+
+            nav ul li:hover {
+                background-color: #374BF2;
+            }
+
+header, footer {
+    background-color: #6699CC;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: White;
+}
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+#information-section {
+    background-color: White;
+    border-top: 2px solid Black;
+    border-bottom: 2px solid Black;
+    padding: 20px 80px;
+    font-family: Sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+    #information-section ul {
+        padding: 10px 0px 10px 25px;
+    }
+
+    #information-section table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+
+td, th {
+    padding: 5px 20px;
+    border: 1pt solid Black;
+}
+
+#interactive-section-header {
+    background-color: DarkGrey;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid Black;
+}
+
+#interactive-section {
+    display: flex;
+    border-bottom: 2px solid Black;
+}
+
+#controls {
+    background-color: LightGrey;
+    padding: 1px;
+    border-right: 2px solid Black;
+}
+
+button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 52px;
+    margin: 5px;
+    border: 1px solid Black;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+    button:hover {
+        background-color: White;
+        color: Black;
+    }
+
+    button:active {
+        background-color: Black;
+        color: White;
+    }
+
+input {
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid Black;
+    vertical-align: top;
+}
+
+.arrow-image {
+    height: 50px;
+    width: 40px;
+    margin: 4px;
+    padding-left: 8px;
+}
+
+canvas {
+    display: block;
+}

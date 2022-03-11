@@ -1,0 +1,42 @@
+.merge-sort {
+
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+
+    #randomButton {
+        width: 100px;
+        background-color:#EDF;
+    }
+    .greenButton {
+        width: 210px;
+        background-color: #CFC;
+    }
+    .pinkButton {
+        width: 210px;
+        background-color: #FCC;
+    }
+    #randomButton:hover, .greenButton:hover, .pinkButton:hover {
+        background-color: #FFF;
+    }
+    #randomButton:active, .greenButton:active, .pinkButton:active {
+        background-color: #000;
+        color: #FFF;
+    }
+    hr {
+        border: none;
+        height: 30px;
+        background: none;
+    }
+    .arrow {
+        display: inline-block;
+        font-size: 30px;
+        height: 65px;
+        line-height: 65px;
+    }
+    .merge-sort-display-row {
+        display: flex;
+        align-items: center;
+    }
+
+}

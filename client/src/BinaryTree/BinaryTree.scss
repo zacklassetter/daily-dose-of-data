@@ -1,0 +1,19 @@
+.binary-tree {
+    
+    display: flex;
+	align-items: flex-start;
+	margin: 10px;
+
+    #randomButton {
+        background-color: #EDF;
+        width: 210px;
+    }
+    #randomButton:hover {
+        background-color: White;
+    }
+    #randomButton:active {
+        background-color: Black;
+        color: White;
+    }
+
+}

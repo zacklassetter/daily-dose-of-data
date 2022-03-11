@@ -1,0 +1,45 @@
+.queue {
+
+	display: flex;
+	align-items: flex-start;
+	margin: 10px;
+
+	#randomButton {
+		background-color: #EDF;
+		width: 210px;
+	}
+	#enqueueButton {
+		background-color: #CFC;
+		width: 100px;
+	}
+	#dequeueButton {
+		background-color: #FCC;
+		width: 210px;
+	}
+	#peekButton {
+		background-color: #EEE;
+		width: 210px;
+	}
+	#randomButton:hover, #enqueueButton:hover, #dequeueButton:hover, #peekButton:hover {
+		background-color: White;
+	}
+	#randomButton:active, #enqueueButton:active, #dequeueButton:active, #peekButton:active {
+		background-color: Black;
+		color: White;
+	}
+	#queueOutput {
+		margin: 5px 60px;
+	}
+	.queueEnd {
+		display: inline-block;
+		height: 60px;
+		margin: 5px;
+		p {
+			display: inline-block;
+			font-size: 20px;
+			height: 60px;
+			line-height: 60px;
+		}
+	}
+
+}

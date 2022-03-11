@@ -1,0 +1,31 @@
+.breadth-first-search {
+
+    #main {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
+    }
+
+    #randomButton {
+        width: 210px;
+        background-color:#EDF;
+    }
+    #searchButton {
+        width: 100px;
+        background-color: #CFC;
+    }
+    #randomButton:hover, #searchButton:hover {
+		background-color: White;
+	}
+	#randomButton:active, #searchButton:active {
+		background-color: Black;
+		color: White;
+	}
+    .greenButton {
+        background-color: #CFC;
+    }
+    .pinkButton {
+        background-color: #FCC;
+    }
+
+}

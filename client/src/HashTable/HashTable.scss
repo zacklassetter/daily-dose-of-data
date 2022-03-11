@@ -1,0 +1,41 @@
+.hash-table {
+
+    #main {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
+    }
+
+    #randomButton {
+        background-color: #EDF;
+        width: 64px;
+    }
+    #insertButton {
+        background-color: #CFC;
+        width: 100px;
+    }
+    #removeButton {
+        background-color: #FCC;
+        width: 100px;
+    }
+    #findButton {
+        background-color: #EEA;
+        width: 100px;
+    }
+    #buildButton {
+        background-color: #EEE;
+        width: 64px;
+    }
+    #randomButton:hover, #insertButton:hover, #removeButton:hover, #findButton:hover, #buildButton:hover {
+        background-color: White;
+    }
+    #randomButton:active, #insertButton:active, #removeButton:active, #findButton:active, #buildButton:active {
+        background-color: Black;
+        color: White;
+    }
+
+    #randomSizeInput, #randomLFInput, #buildSizeInput, #buildLFInput {
+        width: 63px;
+    }
+
+}

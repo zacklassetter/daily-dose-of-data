@@ -1,0 +1,43 @@
+.array {
+
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+
+    #randomButton {
+        background-color: #EDF;
+    }
+    #setButton {
+        background-color: #CFC;
+        width: 64px;
+    }
+    #deleteButton {
+        background-color: #FCC;
+        width: 100px;
+    }
+    #getButton {
+        background-color: #EEA;
+        width: 100px;
+    }
+    #buildButton {
+        background-color: #EEE;
+        width: 100px;
+    }
+    #randomButton:hover, #setButton:hover, #deleteButton:hover, #getButton:hover, #buildButton:hover {
+        background-color: White;
+    }
+    #randomButton:active, #setButton:active, #deleteButton:active, #getButton:active, #buildButton:active {
+        background-color: Black;
+        color: White;
+    }
+    #setIndex {
+        width: 63px;
+    }
+    #setValue {
+        width: 63px;
+    }
+    #arrayOutput {
+        margin: 5px 60px;
+    }
+
+}

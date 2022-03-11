@@ -1,0 +1,53 @@
+.quick-sort {
+
+    #main {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
+    }
+
+    #toggleSortingButton {
+        width: 210px;
+    }
+
+    #worstButton {
+        width: 210px;
+        background-color: #EAA;
+    }
+
+    #randomButton {
+        width: 100px;
+        background-color: #EDF;
+    }
+
+    #randomButton:hover, #toggleSortingButton:hover, #generateArrayButton:hover, #worstButton:hover {
+        background-color: White;
+    }
+
+    #randomButton:active, #toggleSortingButton:active, #generateArrayButton:active, #worstButton:active {
+        background-color: Black;
+        color: White;
+    }
+
+    #generateArrayButton {
+        width: 100px;
+        background-color: #EEE;
+    }
+
+    #toggleSortingButton:hover, #generateArrayButton:hover {
+        background-color: White;
+    }
+
+    #toggleSortingButton:active, #generateArrayButton:active {
+        background-color: Black;
+        color: White;
+    }
+
+    .greenButton {
+        background-color: #CFC;
+    }
+
+    .pinkButton {
+        background-color: #FCC;
+    }
+}

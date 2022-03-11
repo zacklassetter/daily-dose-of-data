@@ -1,0 +1,32 @@
+.element {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 60px;
+	background-color: LightBlue;
+}
+.green {
+	background-color: #AEA;
+}
+.pink {
+	background-color: #EAA;
+}
+.yellow {
+	background-color: #EEA;
+}
+.purple {
+	background-color: #CAF;
+}
+.none {
+	background: none;
+}
+.bordered {
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	border: 2px solid #000;
+}

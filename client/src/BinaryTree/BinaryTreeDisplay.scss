@@ -1,0 +1,37 @@
+.binary-tree-level {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.binary-tree-line-level {
+
+    display: flex;
+    justify-content: stretch;
+
+    .binary-tree-line-left {
+        display: inline-block;
+        height: 60px;
+        flex: 1;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><line x1='50' y1='100' x2='100' y2='0' stroke='black' vector-effect='non-scaling-stroke'/></svg>");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: 100% 100%, auto;
+    }
+
+    .binary-tree-line-right {
+        display: inline-block;
+        height: 60px;
+        flex: 1;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><line x1='0' y1='0' x2='50' y2='100' stroke='black' vector-effect='non-scaling-stroke'/></svg>");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: 100% 100%, auto;
+    }
+
+    .binary-tree-line-none {
+        display: inline-block;
+        height: 60px;
+        flex: 1;
+    }
+}

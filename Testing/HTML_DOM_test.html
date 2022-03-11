@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+	text-decoration: underline;
+	font-family: Papyrus, monospace;
+}
+p {
+	background-color: LightGray;
+}
+#link {
+	background-color: LightBlue;
+	border: 2px solid black;
+	width: 150px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="div1">
+<h1>Heading 1 
+<button type="button" onclick="removeParagraphs(document.getElementById('div1'))">Hide</button>
+</h1>
+<p id="para1">Paragraph 1</p>
+<p id="para2">Paragraph 2</p>
+</div>
+
+<div id="div2">
+<h1 id="head2" style="color: Red">Heading 2 
+<button type="button" onclick="toggleColor()">Toggle</button>
+</h1>
+<p id="para3">Paragraph 3</p>
+<p id="link" onmouseover="highlight(document.getElementById('link'))" onmouseout="dehighlight(document.getElementById('link'))">Hover over me!</p>
+<button type="button" onclick="addParagraph()">Show Paragraph 4</button>
+</div>
+
+<script src="HTML_DOM_test.js"></script>
+
+</body>
+</html>

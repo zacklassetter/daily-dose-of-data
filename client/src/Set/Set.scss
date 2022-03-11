@@ -1,0 +1,46 @@
+.set {
+
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+
+    #randomButton {
+        background-color: #EDF;
+        width: 210px;
+    }
+    #emptyButton {
+        width: 210px;
+    }
+    #insertButton {
+        background-color: #CFC;
+        width: 100px;
+    }
+    #removeButton {
+        background-color: #FCC;
+        width: 100px;
+    }
+    #findButton {
+        background-color: #EEA;
+        width: 100px;
+    }
+    #randomButton:hover, #insertButton:hover, #removeButton:hover, #findButton:hover {
+        background-color: White;
+    }
+    #randomButton:active, #insertButton:active, #removeButton:active, #findButton:active {
+        background-color: Black;
+        color: White;
+    }
+
+    #findOutput {
+        width: 210px;
+    }
+
+    p.curly-brace {
+        display: inline-block;
+        height: 60px;
+        margin: 5px;
+        line-height: 50px;
+        font-size: 60px;
+    }
+
+}

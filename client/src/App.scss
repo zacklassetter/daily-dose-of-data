@@ -1,0 +1,63 @@
+.main {
+	display: flex;
+	align-items: flex-start;
+}
+header, footer {
+	height: 75px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 75px;
+	text-align: center;
+	background-color: #26B;
+}
+header.page-title {
+	background-color:#EEE;
+	color: #000;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 20px 0px;
+	font-family: Sans-serif;
+	font-size: 35px;
+	line-height: 75px;
+	text-align: center;
+}
+footer {
+	font-size: 20px;
+}
+
+#about-us {
+	padding: 25px 150px;
+
+	hr {
+		margin: 50px 0px;
+	}
+}
+
+.personal-information {
+
+	display: flex;
+	align-items: center;
+
+	img {
+		width: 180px;
+		border-radius: 10px;
+		margin-right: 25px;
+	}
+
+	.information-header {
+		display: flex;
+		align-items: center;
+	}
+
+	.personal-information-section {
+		font-size: 16px;
+		margin-left: 25px;
+	}
+
+	.biography {
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+
+}

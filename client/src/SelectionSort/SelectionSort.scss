@@ -1,0 +1,33 @@
+.selection-sort {
+
+    #main {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    #randomButton {
+        width: 100px;
+        background-color:#EDF;
+    }
+    #toggleSortingButton {
+        width: 210px;
+    }
+    #generateArrayButton {
+        width: 100px;
+        background-color: #EEE;
+    }
+    #randomButton:hover, #toggleSortingButton:hover, #generateArrayButton:hover {
+		background-color: White;
+	}
+	#randomButton:active, #toggleSortingButton:active, #generateArrayButton:active {
+		background-color: Black;
+		color: White;
+	}
+    .greenButton {
+        background-color: #CFC;
+    }
+    .pinkButton {
+        background-color: #FCC;
+    }
+
+}

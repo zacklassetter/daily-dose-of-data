@@ -1,0 +1,39 @@
+.heap-sort {
+
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    
+    #randomButton {
+        width: 100px;
+        background-color:#EDF;
+    }
+    #toggleSortingButton {
+        width: 210px;
+    }
+    #randomButton:hover, #toggleSortingButton:hover {
+		background-color: White;
+	}
+	#randomButton:active, #toggleSortingButton:active {
+		background-color: Black;
+		color: White;
+	}
+    .greenButton {
+        background-color: #CFC;
+    }
+    .pinkButton {
+        background-color: #FCC;
+    }
+
+    .visualization {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+
+        .array {
+            display: inline-block;
+        }
+    }
+
+}

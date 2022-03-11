@@ -1,0 +1,40 @@
+.list {
+
+    display: flex;
+	align-items: flex-start;
+	margin: 10px;
+
+    #randomButton {
+        background-color: #EDF;
+        width: 100px;
+    }
+    #insertButton {
+        background-color: #CFC;
+		width: 64px;
+    }
+    #removeButton {
+        background-color: #FCC;
+		width: 100px;
+    }
+    #getButton {
+        background-color: #EEE;
+		width: 100px;
+    }
+    #randomButton:hover, #insertButton:hover, #removeButton:hover, #getButton:hover {
+        background-color: White;
+    }
+    #randomButton:active, #insertButton:active, #removeButton:active, #getButton:active {
+        background-color: Black;
+		color: White;
+    }
+    #insertIndex {
+        width: 63px;
+    }
+    #insertValue {
+        width: 63px;
+    }
+    #listOutput {
+        margin: 5px 60px;
+    }
+
+}
