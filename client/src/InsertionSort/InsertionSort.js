@@ -3,18 +3,18 @@ import './InsertionSort.scss';
 import Element from '../Element/Element';
 
 
-const InsertionSortDisplay = (props) => {
-    return props.array.map((value, index) => {
-        if (index === props.currentCompare && index === props.currentInserting)
+const InsertionSortDisplay = ({currentInserting, currentCompare, sortedEndIndex, array}) => {
+    return array.map((value, index) => {
+        if (index === currentCompare && index === currentInserting)
             return <Element key={index} value={value} color="yellow" border="bordered" />
 
-        if (index === props.currentCompare)
+        if (index === currentCompare)
             return <Element key={index} value={value} color="green" border="bordered" />
 
-        if (index === props.currentInserting)
+        if (index === currentInserting)
             return <Element key={index} value={value} color="yellow" />
 
-        if (index < props.sortedEndIndex)
+        if (index < sortedEndIndex)
             return <Element key={index} value={value} color="green" />
 
         return <Element key={index} value={value} />
